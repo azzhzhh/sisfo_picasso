@@ -44,6 +44,7 @@
                         <a class="collapse-item" href="cards.html">Kelas</a>
                         <a class="collapse-item" href="cards.html">Input Nilai</a>
                         <a class="collapse-item" href="cards.html">Tugas</a>
+                        <a class="collapse-item" href="cards.html">Upload Tugas</a>
                         <a class="collapse-item" href="cards.html">Study Record</a>
                     </div>
                 </div>
