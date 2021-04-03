@@ -23,10 +23,12 @@
             <td width="20px"><?php echo $no++ ?> </td>
             <td><?php echo $kls->kode_kelas ?> </td>
             <td><?php echo $kls->nama_kelas ?> </td>
-            <td width="20px"><div class="btn btn-sm btn-primary"><i 
-            class="fa fa-edit"></i></div></td>
-            <td width="20px"><div class="btn btn-sm btn-danger"><i 
-            class="fa fa-trash"></i></div></td>
+            <td width="20px"><?php echo anchor ('administrator/kelas/update/'.$kls->id_kelas,
+                '<div class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></div>') ?>
+            </td>
+            <td width="20px"><?php echo anchor ('administrator/kelas/delete/'.$kls->id_kelas,
+                '<div class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></div>') ?>
+            </td>
         </tr>
         <?php endforeach; ?>
     </table>

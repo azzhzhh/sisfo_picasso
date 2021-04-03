@@ -41,7 +41,6 @@
                         <a class="collapse-item" href="<?php echo base_url('administrator/kelas') ?>">Kelas</a>
                         <a class="collapse-item" href="cards.html">Siswa</a>
                         <a class="collapse-item" href="cards.html">Guru</a>
-                        <a class="collapse-item" href="cards.html">Materi</a>
                         <a class="collapse-item" href="cards.html">Input Nilai</a>
                         <a class="collapse-item" href="cards.html">Tugas</a>
                         <a class="collapse-item" href="cards.html">Upload Tugas</a>

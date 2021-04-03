@@ -39,20 +39,17 @@
             </div>
 
             <div class="col-md-3 text-info text-center">
-            <a href=" <?php echo base_url() ?>"> <p class="nav-link small text-info"> Materi </p> </a>
-            <i class="fas fa-3x fa-sticky-note"></i>
-            </div> 
-
-            <div class="col-md-3 text-info text-center">
             <a href=" <?php echo base_url() ?>"> <p class="nav-link small text-info"> Kelas </p> </a>
             <i class="fas fa-3x fa-address-book"></i>
             </div> 
-        </div> <hr>
-        <div class="row">
+
             <div class="col-md-3 text-info text-center">
             <a href=" <?php echo base_url() ?>"> <p class="nav-link small text-info"> Input Nilai </p> </a>
             <i class="fas fa-3x fa-sort-numeric-down"></i>
             </div>
+
+        </div> <hr>
+        <div class="row">
 
             <div class="col-md-3 text-info text-center">
             <a href=" <?php echo base_url() ?>"> <p class="nav-link small text-info"> Tugas </p> </a>
@@ -68,6 +65,11 @@
             <a href=" <?php echo base_url() ?>"> <p class="nav-link small text-info"> Study Record </p> </a>
             <i class="fas fa-3x fa-file-alt"></i>
             </div> 
+
+            <div class="col-md-3 text-info text-center">
+            <a href=" <?php echo base_url() ?>"> <p class="nav-link small text-info">Gallery</p> </a>
+            <i class="fas fa-3x fa-images"></i>
+            </div>
         </div> <hr>
         <div class="row">
             <div class="col-md-3 text-info text-center">
@@ -80,10 +82,6 @@
             <i class="fas fa-3x fa-laptop"></i>
             </div>
 
-            <div class="col-md-3 text-info text-center">
-            <a href=" <?php echo base_url() ?>"> <p class="nav-link small text-info">Gallery</p> </a>
-            <i class="fas fa-3x fa-images"></i>
-            </div>
         </div>
       </div>
       <div class="modal-footer">

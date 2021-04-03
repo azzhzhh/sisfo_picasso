@@ -1,5 +1,9 @@
 <div class="container-fluid">
 
+<div class="alert alert-success" role="alert">
+        <i class="fas fa-university"></i> Form Input Kelas
+    </div>
+
     <form method="post" action="<?php echo base_url('administrator/kelas/input_aksi') ?>">
         <div class="form-group">
             <label>Kode kelas</label>
